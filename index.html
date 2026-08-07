@@ -570,7 +570,7 @@ Suporte: segunda a sexta, 8h às 18h. 💬</div>
   <div class="meal-card" style="text-align:center;padding:48px 24px;">
     <div style="font-size:48px;margin-bottom:16px;">🥗</div>
     <div style="font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--gold);margin-bottom:12px;">Planejamento em elaboração</div>
-    <p style="font-size:13px;color:var(--white-dim);line-height:1.9;max-width:480px;margin:0 auto 16px;">A dieta do Diego está sendo elaborada pela nutricionista <strong style="color:var(--white)">Barbara</strong>. Assim que o planejamento alimentar estiver pronto, será atualizado aqui com todas as refeições, macros e substituições.</p>
+    <p style="font-size:13px;color:var(--white-dim);line-height:1.9;max-width:480px;margin:0 auto 16px;">A dieta do Diego é elaborada pela esposa, a nutricionista <strong style="color:var(--white)">Bárbara</strong>. Da minha parte, oriento trabalhar com uma média de <strong style="color:var(--white)">~2.000 kcal por dia</strong>.</p>
     <p style="font-size:11px;color:var(--white-dim);line-height:1.9;">Enquanto isso, foco em: <strong style="color:var(--white)">proteína alta · evitar álcool durante a semana · não pular refeições · reduzir fast food</strong></p>
   </div>
 </section>
@@ -581,283 +581,70 @@ Suporte: segunda a sexta, 8h às 18h. 💬</div>
     <strong>⚠️ Cotovelo:</strong> Monitorar exercícios de empurrar. Se sentir dor ou desconforto no cotovelo durante Push A ou Push B, avisar o treinador imediatamente para ajuste de exercício/carga.
   </div>
 
-  <div class="meal-card" style="margin-bottom:20px;">
-    <h3 style="font-size:15px;margin-bottom:10px;">📅 Estrutura Semanal</h3>
+  
+
+  <div class="treino-tabs"><button class="treino-tab active" onclick="showTreino('a',this)">Full Body A</button><button class="treino-tab" onclick="showTreino('b',this)">Full Body B</button><button class="treino-tab" onclick="showTreino('c',this)">Full Body C</button></div>
+<div id="treino-a" class="treino-content active">
+  <div class="meal-card">
+    <h3>Full Body A</h3>
+<div class="warmup-block warmup-superior"><div class="warmup-icon">⚙️</div><div class="warmup-content"><div class="warmup-title" style="color:var(--blue);">Regra de Progressão — Obrigatória</div><div style="font-size:11px;color:var(--white-dim);line-height:1.9;margin-bottom:10px;">Nunca comece com a carga máxima. As séries são <strong style="color:var(--white)">progressivas</strong> — aumente a carga a cada série desde que continue atingindo a falha nas reps prescritas.</div><div class="warmup-steps"><div class="warmup-step"><span class="step-num">1ª</span><span class="step-text"><strong>Aquecimento:</strong> carga bem leve · algumas reps · sem falhar</span></div><div class="warmup-step"><span class="step-num">2ª+</span><span class="step-text"><strong>Progrida</strong> a carga até atingir a falha nas reps prescritas</span></div></div><div style="background:rgba(0,0,0,0.2);border-radius:3px;padding:8px 12px;margin-top:8px;font-size:10px;color:var(--white-dim);">Exemplo 4×8–10: S1 20kg leve → S2 30kg → S3 35kg → S4 40kg até falha</div><div class="warmup-videos-title" style="margin-top:10px;">📱 Mobilidade — Superiores</div><div class="warmup-videos"><a href="https://drive.google.com/file/d/1wZC2dwEJg2tkni2hxu8anqPvy9rL2LtF/view?usp=sharing" target="_blank" class="warmup-vid">▶ Alongamento pendurado</a><a href="https://drive.google.com/file/d/1S1duBiOxOv64BhSZpgErfwYv-9y1lF_0/view?usp=sharing" target="_blank" class="warmup-vid">▶ Alongamento peitoral</a><a href="https://drive.google.com/file/d/18MbodypqKN1cXpB4ZltkZTiQ8PdwNbAP/view?usp=sharing" target="_blank" class="warmup-vid">▶ Mobilidade escapular</a></div></div></div>
     <div class="exercise-table-wrap">
       <table class="exercise-table">
-        <thead><tr><th>Dia</th><th>Treino</th><th>Cardio</th></tr></thead>
-        <tbody>
-          <tr><td style="color:var(--gold);">Segunda</td><td>Push A</td><td>Conforme protocolo</td></tr>
-          <tr><td style="color:var(--gold);">Terça</td><td>Pull A</td><td>Conforme protocolo</td></tr>
-          <tr><td style="color:var(--gold);">Quarta</td><td>Legs A</td><td>Conforme protocolo</td></tr>
-          <tr><td style="color:var(--gold);">Quinta</td><td>Push B</td><td>Conforme protocolo</td></tr>
-          <tr><td style="color:var(--gold);">Sexta</td><td>Pull B</td><td>Conforme protocolo</td></tr>
-          <tr><td style="color:var(--gold);">Sábado</td><td>Legs B</td><td>Cardio misto</td></tr>
-          <tr><td style="color:var(--gold);">Domingo</td><td>Descanso</td><td>Regenerativo leve</td></tr>
-        </tbody>
+        <thead><tr><th>Exercício</th><th>Séries</th><th>Reps</th><th>Carga</th><th>Vídeo</th></tr></thead>
+        <tbody><tr><td class="ex-name">Leg Press 45°</td><td>4</td><td>10–12</td><td>Progressiva</td><td><a href="https://www.youtube.com/results?search_query=Leg%20Press%2045%C2%B0%20execu%C3%A7%C3%A3o" target="_blank" class="video-btn">▶ VER</a></td></tr><tr><td class="ex-name">Supino Reto na Máquina</td><td>4</td><td>8–10</td><td>Progressiva</td><td><a href="https://www.youtube.com/results?search_query=Supino%20Reto%20na%20M%C3%A1quina%20execu%C3%A7%C3%A3o" target="_blank" class="video-btn">▶ VER</a></td></tr><tr><td class="ex-name">Puxada Aberta com Barra Reta</td><td>4</td><td>8–10</td><td>Progressiva</td><td><a href="https://drive.google.com/file/d/1hO72jTUD-c47MI6Y5Vyfh8st7pbtu2FI/view" target="_blank" class="video-btn">▶ VER</a></td></tr><tr><td class="ex-name">Mesa Flexora</td><td>3</td><td>10–12</td><td>Moderada</td><td><a href="https://drive.google.com/file/d/1sirxKDE_YlDKDSROYD3d83raodQW-2TD/view" target="_blank" class="video-btn">▶ VER</a></td></tr><tr><td class="ex-name">Crucifixo Inclinado com Halteres</td><td>3</td><td>10–12</td><td>Moderada</td><td><a href="https://www.youtube.com/results?search_query=Crucifixo%20Inclinado%20com%20Halteres%20execu%C3%A7%C3%A3o" target="_blank" class="video-btn">▶ VER</a></td></tr><tr><td class="ex-name">Remada Baixa com Triângulo</td><td>3</td><td>10–12</td><td>Progressiva</td><td><a href="https://drive.google.com/file/d/1WNx2rRvalmy14mbM5j4mBa3rjkRt701E/view" target="_blank" class="video-btn">▶ VER</a></td></tr><tr><td class="ex-name">Elevação Lateral com Halteres</td><td>3</td><td>12–15</td><td>Moderada</td><td><a href="https://drive.google.com/file/d/1NGqW9xq7yFGUv_U_TnEDNtJg23aKEG3M/view" target="_blank" class="video-btn">▶ VER</a></td></tr><tr><td class="ex-name">Prancha Isométrica</td><td>3</td><td>30–40s</td><td>—</td><td><a href="https://www.youtube.com/results?search_query=Prancha%20Isom%C3%A9trica%20execu%C3%A7%C3%A3o" target="_blank" class="video-btn">▶ VER</a></td></tr></tbody>
       </table>
     </div>
-    <div class="swipe-hint">← deslize →</div>
-  </div>
-
-  <div class="treino-tabs">
-    <button class="treino-tab active" onclick="showTreino('push-a',this)">Push A</button>
-    <button class="treino-tab" onclick="showTreino('pull-a',this)">Pull A</button>
-    <button class="treino-tab" onclick="showTreino('legs-a',this)">Legs A</button>
-    <button class="treino-tab" onclick="showTreino('push-b',this)">Push B</button>
-    <button class="treino-tab" onclick="showTreino('pull-b',this)">Pull B</button>
-    <button class="treino-tab" onclick="showTreino('legs-b',this)">Legs B</button>
-  </div>
-
-  <!-- PUSH A -->
-  <div id="treino-push-a" class="treino-content active">
-    <div class="meal-card">
-      <h3>Push A — Peito · Ombro · Tríceps</h3>
-      <div class="warmup-block warmup-superior"><div class="warmup-icon">⚙️</div><div class="warmup-content"><div class="warmup-title" style="color:var(--blue);">Regra de Progressão — Obrigatória</div><div style="font-size:11px;color:var(--white-dim);line-height:1.9;margin-bottom:10px;">Nunca comece com a carga máxima. As séries são <strong style="color:var(--white)">progressivas</strong> — aumente a carga a cada série desde que continue atingindo a falha nas reps prescritas.</div><div class="warmup-steps"><div class="warmup-step"><span class="step-num">1ª</span><span class="step-text"><strong>Aquecimento:</strong> carga bem leve · algumas reps · sem falhar</span></div><div class="warmup-step"><span class="step-num">2ª+</span><span class="step-text"><strong>Progrida</strong> a carga até atingir a falha nas reps prescritas</span></div></div><div style="background:rgba(0,0,0,0.2);border-radius:3px;padding:8px 12px;margin-top:8px;font-size:10px;color:var(--white-dim);">Exemplo 4×8–10: S1 20kg leve → S2 30kg → S3 35kg → S4 40kg até falha</div><div class="warmup-videos-title" style="margin-top:10px;">📱 Mobilidade — Superiores</div><div class="warmup-videos"><a href="https://drive.google.com/file/d/1wZC2dwEJg2tkni2hxu8anqPvy9rL2LtF/view?usp=sharing" target="_blank" class="warmup-vid">▶ Alongamento pendurado</a><a href="https://drive.google.com/file/d/1S1duBiOxOv64BhSZpgErfwYv-9y1lF_0/view?usp=sharing" target="_blank" class="warmup-vid">▶ Alongamento peitoral</a><a href="https://drive.google.com/file/d/18MbodypqKN1cXpB4ZltkZTiQ8PdwNbAP/view?usp=sharing" target="_blank" class="warmup-vid">▶ Mobilidade escapular</a></div></div></div><div class="logica-box"><strong>⚙️ Progressão:</strong> Séries progressivas · 1ª série = aquecimento leve · nunca comece com carga máxima · aumente a carga a cada série até atingir a falha nas reps prescritas.</div>
-      <div class="exercise-table-wrap">
-        <table class="exercise-table">
-          <thead><tr><th>Exercício</th><th>Séries</th><th>Reps</th><th>Carga</th><th>Vídeo</th></tr></thead>
-          <tbody>
-            <tr><td class="ex-name">Crucifixo Máquina</td><td>4</td><td>10–12</td><td>Progressiva</td><td><a href="https://drive.google.com/file/d/1TjdmzuXsgRKgddaJUiWHV0xZIHeJDgEE/view" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Supino Inclinado com Halteres</td><td>4</td><td>8–10</td><td>Progressiva</td><td><a href="https://drive.google.com/file/d/1W-MZsADzV86Da2cYnmw_P3PTOkXz7kaQ/view" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Crossover</td><td>3</td><td>12–15</td><td>Moderada</td><td><a href="https://drive.google.com/file/d/1E0ji1a-4vHsbKANUnt64CeqihK0_WVmA/view" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Desenvolvimento em Pé com Halteres</td><td>4</td><td>8–10</td><td>Progressiva</td><td><a href="https://drive.google.com/file/d/1ubs5rubVoOPVhmuB3bUeCg5NwlS-iLY-/view" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Elevação Lateral com Halteres em Pé</td><td>4</td><td>12–15</td><td>Moderada</td><td><a href="https://www.youtube.com/results?search_query=Elevação+Lateral+com+Halteres+em+Pé+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Tríceps Pulley Barra W</td><td>3</td><td>12–15</td><td>Moderada</td><td><a href="https://drive.google.com/file/d/1PHx0gIvHuVoCz1gVCc2T0AR6mNCsUWax/view" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Tríceps Corda</td><td>3</td><td>12–15</td><td>Moderada</td><td><a href="https://drive.google.com/file/d/1p_Ec7GnQK8wgOTAvbXb0VIhjtm7QMNXV/view" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr class="core-row"><td class="ex-name" style="color:var(--gold-light);">— CORE —</td><td colspan="4" style="color:var(--white-dim);font-size:10px;">Ao final do treino</td></tr>
-            <tr><td class="ex-name">Prancha Ventral</td><td>3</td><td>30–45s</td><td>Corporal</td><td><a href="https://www.youtube.com/results?search_query=Prancha+Ventral+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Dead Bug</td><td>3</td><td>10 cada</td><td>Corporal</td><td><a href="https://www.youtube.com/results?search_query=Dead+Bug+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-          </tbody>
-        </table>
-      </div>
       <div class="swipe-hint">← deslize →</div>
-    </div>
   </div>
+</div>
 
-  <!-- PULL A -->
-  <div id="treino-pull-a" class="treino-content">
-    <div class="meal-card">
-      <h3>Pull A — Costas · Bíceps</h3>
-      <div class="warmup-block warmup-superior"><div class="warmup-icon">⚙️</div><div class="warmup-content"><div class="warmup-title" style="color:var(--blue);">Regra de Progressão — Obrigatória</div><div style="font-size:11px;color:var(--white-dim);line-height:1.9;margin-bottom:10px;">Nunca comece com a carga máxima. As séries são <strong style="color:var(--white)">progressivas</strong> — aumente a carga a cada série desde que continue atingindo a falha nas reps prescritas.</div><div class="warmup-steps"><div class="warmup-step"><span class="step-num">1ª</span><span class="step-text"><strong>Aquecimento:</strong> carga bem leve · algumas reps · sem falhar</span></div><div class="warmup-step"><span class="step-num">2ª+</span><span class="step-text"><strong>Progrida</strong> a carga até atingir a falha nas reps prescritas</span></div></div><div style="background:rgba(0,0,0,0.2);border-radius:3px;padding:8px 12px;margin-top:8px;font-size:10px;color:var(--white-dim);">Exemplo 4×8–10: S1 20kg leve → S2 30kg → S3 35kg → S4 40kg até falha</div><div class="warmup-videos-title" style="margin-top:10px;">📱 Mobilidade — Superiores</div><div class="warmup-videos"><a href="https://drive.google.com/file/d/1wZC2dwEJg2tkni2hxu8anqPvy9rL2LtF/view?usp=sharing" target="_blank" class="warmup-vid">▶ Alongamento pendurado</a><a href="https://drive.google.com/file/d/1S1duBiOxOv64BhSZpgErfwYv-9y1lF_0/view?usp=sharing" target="_blank" class="warmup-vid">▶ Alongamento peitoral</a><a href="https://drive.google.com/file/d/18MbodypqKN1cXpB4ZltkZTiQ8PdwNbAP/view?usp=sharing" target="_blank" class="warmup-vid">▶ Mobilidade escapular</a></div></div></div><div class="logica-box"><strong>⚙️ Progressão:</strong> Séries progressivas · 1ª série = aquecimento leve · nunca comece com carga máxima · aumente a carga a cada série até atingir a falha nas reps prescritas.</div>
-      <div class="exercise-table-wrap">
-        <table class="exercise-table">
-          <thead><tr><th>Exercício</th><th>Séries</th><th>Reps</th><th>Carga</th><th>Vídeo</th></tr></thead>
-          <tbody>
-            <tr><td class="ex-name">Puxada Aberta Barra Reta</td><td>4</td><td>8–10</td><td>Progressiva</td><td><a href="https://drive.google.com/file/d/1hO72jTUD-c47MI6Y5Vyfh8st7pbtu2FI/view" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Remada Fechada Triângulo</td><td>4</td><td>10–12</td><td>Progressiva</td><td><a href="https://www.youtube.com/results?search_query=Remada+Fechada+Triângulo+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Pull Down Alça Barra Reta</td><td>3</td><td>10–12</td><td>Moderada</td><td><a href="https://www.youtube.com/results?search_query=Pull+Down+Alça+Barra+Reta+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Remada Pronada Cavalinho Máquina</td><td>3</td><td>10–12</td><td>Moderada</td><td><a href="https://www.youtube.com/results?search_query=Remada+Pronada+Cavalinho+Máquina+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Crucifixo Invertido</td><td>3</td><td>12–15</td><td>Moderada</td><td><a href="https://drive.google.com/file/d/1jek0okn15KMgg9g5igd9Tkm1qvoveAW1/view" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Rosca Direta</td><td>3</td><td>10–12</td><td>Moderada</td><td><a href="https://www.youtube.com/results?search_query=Rosca+Direta+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Rosca Scott Barra W</td><td>3</td><td>10–12</td><td>Moderada</td><td><a href="https://drive.google.com/file/d/14KY2OqZVULDhI6sSIm60WClA9vDTi3kW/view" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr class="core-row"><td class="ex-name" style="color:var(--gold-light);">— CORE —</td><td colspan="4" style="color:var(--white-dim);font-size:10px;">Ao final do treino</td></tr>
-            <tr><td class="ex-name">Rotação de Tronco com Anilha</td><td>3</td><td>12 cada</td><td>Leve</td><td><a href="https://www.youtube.com/results?search_query=Rotação+de+Tronco+com+Anilha+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Abdominal Isometria no Solo</td><td>3</td><td>30–45s</td><td>Corporal</td><td><a href="https://www.youtube.com/results?search_query=Abdominal+Isometria+no+Solo+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="swipe-hint">← deslize →</div>
+<div id="treino-b" class="treino-content">
+  <div class="meal-card">
+    <h3>Full Body B</h3>
+<div class="warmup-block warmup-superior"><div class="warmup-icon">⚙️</div><div class="warmup-content"><div class="warmup-title" style="color:var(--blue);">Regra de Progressão — Obrigatória</div><div style="font-size:11px;color:var(--white-dim);line-height:1.9;margin-bottom:10px;">Nunca comece com a carga máxima. As séries são <strong style="color:var(--white)">progressivas</strong> — aumente a carga a cada série desde que continue atingindo a falha nas reps prescritas.</div><div class="warmup-steps"><div class="warmup-step"><span class="step-num">1ª</span><span class="step-text"><strong>Aquecimento:</strong> carga bem leve · algumas reps · sem falhar</span></div><div class="warmup-step"><span class="step-num">2ª+</span><span class="step-text"><strong>Progrida</strong> a carga até atingir a falha nas reps prescritas</span></div></div><div style="background:rgba(0,0,0,0.2);border-radius:3px;padding:8px 12px;margin-top:8px;font-size:10px;color:var(--white-dim);">Exemplo 4×8–10: S1 20kg leve → S2 30kg → S3 35kg → S4 40kg até falha</div><div class="warmup-videos-title" style="margin-top:10px;">📱 Mobilidade — Superiores</div><div class="warmup-videos"><a href="https://drive.google.com/file/d/1wZC2dwEJg2tkni2hxu8anqPvy9rL2LtF/view?usp=sharing" target="_blank" class="warmup-vid">▶ Alongamento pendurado</a><a href="https://drive.google.com/file/d/1S1duBiOxOv64BhSZpgErfwYv-9y1lF_0/view?usp=sharing" target="_blank" class="warmup-vid">▶ Alongamento peitoral</a><a href="https://drive.google.com/file/d/18MbodypqKN1cXpB4ZltkZTiQ8PdwNbAP/view?usp=sharing" target="_blank" class="warmup-vid">▶ Mobilidade escapular</a></div></div></div>
+    <div class="exercise-table-wrap">
+      <table class="exercise-table">
+        <thead><tr><th>Exercício</th><th>Séries</th><th>Reps</th><th>Carga</th><th>Vídeo</th></tr></thead>
+        <tbody><tr><td class="ex-name">Agachamento Livre</td><td>4</td><td>8–10</td><td>Progressiva</td><td><a href="https://www.youtube.com/results?search_query=Agachamento%20Livre%20execu%C3%A7%C3%A3o" target="_blank" class="video-btn">▶ VER</a></td></tr><tr><td class="ex-name">Supino Reto com Halteres</td><td>4</td><td>8–10</td><td>Progressiva</td><td><a href="https://drive.google.com/file/d/1tz6fRcmWpt1zNlNrZPPOIyT2qNkYEMTQ/view" target="_blank" class="video-btn">▶ VER</a></td></tr><tr><td class="ex-name">Puxada Neutra com Barra H</td><td>4</td><td>8–10</td><td>Progressiva</td><td><a href="https://www.youtube.com/results?search_query=Puxada%20Neutra%20com%20Barra%20H%20execu%C3%A7%C3%A3o" target="_blank" class="video-btn">▶ VER</a></td></tr><tr><td class="ex-name">Elevação de Quadril na Máquina</td><td>3</td><td>10–12</td><td>Progressiva</td><td><a href="https://drive.google.com/file/d/1HsjUj6xu9tKX3kLqUeU9e_9_DAI8Navp/view" target="_blank" class="video-btn">▶ VER</a></td></tr><tr><td class="ex-name">Crucifixo Reto na Máquina</td><td>3</td><td>12–15</td><td>Moderada</td><td><a href="https://www.youtube.com/results?search_query=Crucifixo%20Reto%20na%20M%C3%A1quina%20execu%C3%A7%C3%A3o" target="_blank" class="video-btn">▶ VER</a></td></tr><tr><td class="ex-name">Remada Máquina com Pegada Neutra</td><td>3</td><td>10–12</td><td>Progressiva</td><td><a href="https://drive.google.com/file/d/1rLG1qgkC6VZ2HagpOtIKzskzaKsWG977/view" target="_blank" class="video-btn">▶ VER</a></td></tr><tr><td class="ex-name">Desenvolvimento Sentado com Halteres</td><td>3</td><td>10–12</td><td>Progressiva</td><td><a href="https://drive.google.com/file/d/1ubs5rubVoOPVhmuB3bUeCg5NwlS-iLY-/view" target="_blank" class="video-btn">▶ VER</a></td></tr><tr><td class="ex-name">Elevação de Panturrilha na Máquina</td><td>4</td><td>12–15</td><td>Moderada</td><td><a href="https://www.youtube.com/results?search_query=Eleva%C3%A7%C3%A3o%20de%20Panturrilha%20na%20M%C3%A1quina%20execu%C3%A7%C3%A3o" target="_blank" class="video-btn">▶ VER</a></td></tr><tr><td class="ex-name">Dead Bug</td><td>3</td><td>12 cada</td><td>—</td><td><a href="https://www.youtube.com/results?search_query=Dead%20Bug%20execu%C3%A7%C3%A3o" target="_blank" class="video-btn">▶ VER</a></td></tr></tbody>
+      </table>
     </div>
+      <div class="swipe-hint">← deslize →</div>
   </div>
+</div>
 
-  <!-- LEGS A -->
-  <div id="treino-legs-a" class="treino-content">
-    <div class="meal-card">
-      <h3>Legs A — Membros Inferiores</h3>
-      <div class="warmup-block warmup-inferior"><div class="warmup-icon">⚙️</div><div class="warmup-content"><div class="warmup-title" style="color:var(--green);">Regra de Progressão — Obrigatória</div><div style="font-size:11px;color:var(--white-dim);line-height:1.9;margin-bottom:10px;">Nunca comece com a carga máxima. As séries são <strong style="color:var(--white)">progressivas</strong> — aumente a carga a cada série desde que continue atingindo a falha nas reps prescritas.</div><div class="warmup-steps"><div class="warmup-step"><span class="step-num">1ª</span><span class="step-text"><strong>Aquecimento:</strong> carga bem leve · algumas reps · sem falhar</span></div><div class="warmup-step"><span class="step-num">2ª+</span><span class="step-text"><strong>Progrida</strong> a carga até atingir a falha nas reps prescritas</span></div></div><div style="background:rgba(0,0,0,0.2);border-radius:3px;padding:8px 12px;margin-top:8px;font-size:10px;color:var(--white-dim);">Exemplo 4×8–10: S1 20kg leve → S2 30kg → S3 35kg → S4 40kg até falha</div><div class="warmup-videos-title" style="margin-top:10px;">📱 Mobilidade — Inferiores</div><div class="warmup-videos"><a href="https://drive.google.com/file/d/1WJfflEMvAwbFIeeyLRoiT6IypcqkyHRs/view?usp=sharing" target="_blank" class="warmup-vid">▶ Mobilidade quadril e tornozelo 1</a><a href="https://drive.google.com/file/d/16cq7ROyClZ90yE0MP6F4eE82jDVcSWKc/view?usp=sharing" target="_blank" class="warmup-vid">▶ Mobilidade quadril e tornozelo 2</a></div></div></div><div class="logica-box"><strong>⚙️ Progressão:</strong> Séries progressivas · 1ª série = aquecimento leve · nunca comece com carga máxima · aumente a carga a cada série até atingir a falha nas reps prescritas.</div>
-      <div class="exercise-table-wrap">
-        <table class="exercise-table">
-          <thead><tr><th>Exercício</th><th>Séries</th><th>Reps</th><th>Carga</th><th>Vídeo</th></tr></thead>
-          <tbody>
-            <tr><td class="ex-name">Abdução de Quadril com Miniband</td><td>3</td><td>20–25</td><td>Miniband</td><td><a href="https://drive.google.com/file/d/1QGvyxIlAAJfBvAionk7sOLgpHAgKP7i6/view" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Elevação de Quadril com Miniband</td><td>3</td><td>15–20</td><td>Miniband</td><td><a href="https://www.youtube.com/results?search_query=Elevação+de+Quadril+com+Miniband+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Elevação de Quadril Máquina</td><td>4</td><td>10–12</td><td>Progressiva</td><td><a href="https://www.youtube.com/results?search_query=Elevação+de+Quadril+Máquina+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Flexora Deitada</td><td>4</td><td>10–12</td><td>Progressiva</td><td><a href="https://www.youtube.com/results?search_query=Flexora+Deitada+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Agachamento Smith</td><td>4</td><td>8–10</td><td>Progressiva</td><td><a href="https://drive.google.com/file/d/1QNsyxSR4JfRpctAhTilG8MnEc5slXWqw/view" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Leg Press 45</td><td>4</td><td>10–12</td><td>Progressiva</td><td><a href="https://www.youtube.com/results?search_query=Leg+Press+45+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Extensora</td><td>3</td><td>12–15</td><td>Moderada</td><td><a href="https://www.youtube.com/results?search_query=Extensora+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr class="core-row"><td class="ex-name" style="color:var(--gold-light);">— CORE —</td><td colspan="4" style="color:var(--white-dim);font-size:10px;">Ao final do treino</td></tr>
-            <tr><td class="ex-name">Extensão de Quadril no Banco Romano</td><td>3</td><td>12–15</td><td>Corporal</td><td><a href="https://drive.google.com/file/d/1HV7NTdj-U3JX0i4mIF-yIh21eimq3RfP/view" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Prancha Suíça</td><td>3</td><td>30–45s</td><td>Corporal</td><td><a href="https://www.youtube.com/results?search_query=Prancha+Suíça+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="swipe-hint">← deslize →</div>
+<div id="treino-c" class="treino-content">
+  <div class="meal-card">
+    <h3>Full Body C</h3>
+<div class="warmup-block warmup-superior"><div class="warmup-icon">⚙️</div><div class="warmup-content"><div class="warmup-title" style="color:var(--blue);">Regra de Progressão — Obrigatória</div><div style="font-size:11px;color:var(--white-dim);line-height:1.9;margin-bottom:10px;">Nunca comece com a carga máxima. As séries são <strong style="color:var(--white)">progressivas</strong> — aumente a carga a cada série desde que continue atingindo a falha nas reps prescritas.</div><div class="warmup-steps"><div class="warmup-step"><span class="step-num">1ª</span><span class="step-text"><strong>Aquecimento:</strong> carga bem leve · algumas reps · sem falhar</span></div><div class="warmup-step"><span class="step-num">2ª+</span><span class="step-text"><strong>Progrida</strong> a carga até atingir a falha nas reps prescritas</span></div></div><div style="background:rgba(0,0,0,0.2);border-radius:3px;padding:8px 12px;margin-top:8px;font-size:10px;color:var(--white-dim);">Exemplo 4×8–10: S1 20kg leve → S2 30kg → S3 35kg → S4 40kg até falha</div><div class="warmup-videos-title" style="margin-top:10px;">📱 Mobilidade — Superiores</div><div class="warmup-videos"><a href="https://drive.google.com/file/d/1wZC2dwEJg2tkni2hxu8anqPvy9rL2LtF/view?usp=sharing" target="_blank" class="warmup-vid">▶ Alongamento pendurado</a><a href="https://drive.google.com/file/d/1S1duBiOxOv64BhSZpgErfwYv-9y1lF_0/view?usp=sharing" target="_blank" class="warmup-vid">▶ Alongamento peitoral</a><a href="https://drive.google.com/file/d/18MbodypqKN1cXpB4ZltkZTiQ8PdwNbAP/view?usp=sharing" target="_blank" class="warmup-vid">▶ Mobilidade escapular</a></div></div></div>
+    <div class="exercise-table-wrap">
+      <table class="exercise-table">
+        <thead><tr><th>Exercício</th><th>Séries</th><th>Reps</th><th>Carga</th><th>Vídeo</th></tr></thead>
+        <tbody><tr><td class="ex-name">Agachamento na Barra Hexagonal</td><td>4</td><td>8–10</td><td>Progressiva</td><td><a href="https://www.youtube.com/results?search_query=Agachamento%20na%20Barra%20Hexagonal%20execu%C3%A7%C3%A3o" target="_blank" class="video-btn">▶ VER</a></td></tr><tr><td class="ex-name">Supino Inclinado na Máquina</td><td>4</td><td>8–10</td><td>Progressiva</td><td><a href="https://www.youtube.com/results?search_query=Supino%20Inclinado%20na%20M%C3%A1quina%20execu%C3%A7%C3%A3o" target="_blank" class="video-btn">▶ VER</a></td></tr><tr><td class="ex-name">Puxada Fechada com Triângulo</td><td>4</td><td>8–10</td><td>Progressiva</td><td><a href="https://www.youtube.com/results?search_query=Puxada%20Fechada%20com%20Tri%C3%A2ngulo%20execu%C3%A7%C3%A3o" target="_blank" class="video-btn">▶ VER</a></td></tr><tr><td class="ex-name">Cadeira Flexora</td><td>3</td><td>12–15</td><td>Moderada</td><td><a href="https://drive.google.com/file/d/1sirxKDE_YlDKDSROYD3d83raodQW-2TD/view" target="_blank" class="video-btn">▶ VER</a></td></tr><tr><td class="ex-name">Crossover na Polia</td><td>3</td><td>12–15</td><td>Moderada</td><td><a href="https://www.youtube.com/results?search_query=Crossover%20na%20Polia%20execu%C3%A7%C3%A3o" target="_blank" class="video-btn">▶ VER</a></td></tr><tr><td class="ex-name">Remada Máquina Unilateral com Pegada Neutra</td><td>3</td><td>10–12</td><td>Progressiva</td><td><a href="https://www.youtube.com/results?search_query=Remada%20M%C3%A1quina%20Unilateral%20com%20Pegada%20Neutra%20execu%C3%A7%C3%A3o" target="_blank" class="video-btn">▶ VER</a></td></tr><tr><td class="ex-name">Elevação Lateral com Halteres</td><td>3</td><td>12–15</td><td>Moderada</td><td><a href="https://drive.google.com/file/d/1NGqW9xq7yFGUv_U_TnEDNtJg23aKEG3M/view" target="_blank" class="video-btn">▶ VER</a></td></tr><tr><td class="ex-name">Rosca Direta com Barra W</td><td>3</td><td>10–12</td><td>Moderada</td><td><a href="https://drive.google.com/file/d/1THTclIW1YtUhy65_lt-Hjf6bJJXHWACd/view" target="_blank" class="video-btn">▶ VER</a></td></tr><tr><td class="ex-name">Tríceps Corda na Polia</td><td>3</td><td>12–15</td><td>Moderada</td><td><a href="https://www.youtube.com/results?search_query=Tr%C3%ADceps%20Corda%20na%20Polia%20execu%C3%A7%C3%A3o" target="_blank" class="video-btn">▶ VER</a></td></tr><tr><td class="ex-name">Abdominal na Máquina</td><td>3</td><td>15–20</td><td>—</td><td><a href="https://www.youtube.com/results?search_query=Abdominal%20na%20M%C3%A1quina%20execu%C3%A7%C3%A3o" target="_blank" class="video-btn">▶ VER</a></td></tr></tbody>
+      </table>
     </div>
+      <div class="swipe-hint">← deslize →</div>
   </div>
+</div>
 
-  <!-- PUSH B -->
-  <div id="treino-push-b" class="treino-content">
-    <div class="meal-card">
-      <h3>Push B — Peito · Ombro · Tríceps</h3>
-      <div class="warmup-block warmup-superior"><div class="warmup-icon">⚙️</div><div class="warmup-content"><div class="warmup-title" style="color:var(--blue);">Regra de Progressão — Obrigatória</div><div style="font-size:11px;color:var(--white-dim);line-height:1.9;margin-bottom:10px;">Nunca comece com a carga máxima. As séries são <strong style="color:var(--white)">progressivas</strong> — aumente a carga a cada série desde que continue atingindo a falha nas reps prescritas.</div><div class="warmup-steps"><div class="warmup-step"><span class="step-num">1ª</span><span class="step-text"><strong>Aquecimento:</strong> carga bem leve · algumas reps · sem falhar</span></div><div class="warmup-step"><span class="step-num">2ª+</span><span class="step-text"><strong>Progrida</strong> a carga até atingir a falha nas reps prescritas</span></div></div><div style="background:rgba(0,0,0,0.2);border-radius:3px;padding:8px 12px;margin-top:8px;font-size:10px;color:var(--white-dim);">Exemplo 4×8–10: S1 20kg leve → S2 30kg → S3 35kg → S4 40kg até falha</div><div class="warmup-videos-title" style="margin-top:10px;">📱 Mobilidade — Superiores</div><div class="warmup-videos"><a href="https://drive.google.com/file/d/1wZC2dwEJg2tkni2hxu8anqPvy9rL2LtF/view?usp=sharing" target="_blank" class="warmup-vid">▶ Alongamento pendurado</a><a href="https://drive.google.com/file/d/1S1duBiOxOv64BhSZpgErfwYv-9y1lF_0/view?usp=sharing" target="_blank" class="warmup-vid">▶ Alongamento peitoral</a><a href="https://drive.google.com/file/d/18MbodypqKN1cXpB4ZltkZTiQ8PdwNbAP/view?usp=sharing" target="_blank" class="warmup-vid">▶ Mobilidade escapular</a></div></div></div><div class="logica-box"><strong>⚙️ Progressão:</strong> Séries progressivas · 1ª série = aquecimento leve · nunca comece com carga máxima · aumente a carga a cada série até atingir a falha nas reps prescritas.</div>
-      <div class="exercise-table-wrap">
-        <table class="exercise-table">
-          <thead><tr><th>Exercício</th><th>Séries</th><th>Reps</th><th>Carga</th><th>Vídeo</th></tr></thead>
-          <tbody>
-            <tr><td class="ex-name">Supino Inclinado com Halteres</td><td>4</td><td>8–10</td><td>Progressiva</td><td><a href="https://drive.google.com/file/d/1W-MZsADzV86Da2cYnmw_P3PTOkXz7kaQ/view" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Crucifixo Máquina</td><td>4</td><td>10–12</td><td>Progressiva</td><td><a href="https://drive.google.com/file/d/1TjdmzuXsgRKgddaJUiWHV0xZIHeJDgEE/view" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Desenvolvimento em Pé com Halteres</td><td>4</td><td>8–10</td><td>Progressiva</td><td><a href="https://drive.google.com/file/d/1ubs5rubVoOPVhmuB3bUeCg5NwlS-iLY-/view" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Crossover</td><td>3</td><td>12–15</td><td>Moderada</td><td><a href="https://drive.google.com/file/d/1E0ji1a-4vHsbKANUnt64CeqihK0_WVmA/view" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Elevação Lateral com Halteres em Pé</td><td>4</td><td>12–15</td><td>Moderada</td><td><a href="https://www.youtube.com/results?search_query=Elevação+Lateral+com+Halteres+em+Pé+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Tríceps Pulley Barra W</td><td>3</td><td>12–15</td><td>Moderada</td><td><a href="https://drive.google.com/file/d/1PHx0gIvHuVoCz1gVCc2T0AR6mNCsUWax/view" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Tríceps Corda</td><td>3</td><td>12–15</td><td>Moderada</td><td><a href="https://drive.google.com/file/d/1p_Ec7GnQK8wgOTAvbXb0VIhjtm7QMNXV/view" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr class="core-row"><td class="ex-name" style="color:var(--gold-light);">— CORE —</td><td colspan="4" style="color:var(--white-dim);font-size:10px;">Ao final do treino</td></tr>
-            <tr><td class="ex-name">Prancha Toque no Ombro</td><td>3</td><td>10 cada</td><td>Corporal</td><td><a href="https://www.youtube.com/results?search_query=Prancha+Toque+no+Ombro+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Dead Bug</td><td>3</td><td>10 cada</td><td>Corporal</td><td><a href="https://www.youtube.com/results?search_query=Dead+Bug+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="swipe-hint">← deslize →</div>
-    </div>
-  </div>
-
-  <!-- PULL B -->
-  <div id="treino-pull-b" class="treino-content">
-    <div class="meal-card">
-      <h3>Pull B — Costas · Bíceps</h3>
-      <div class="warmup-block warmup-superior"><div class="warmup-icon">⚙️</div><div class="warmup-content"><div class="warmup-title" style="color:var(--blue);">Regra de Progressão — Obrigatória</div><div style="font-size:11px;color:var(--white-dim);line-height:1.9;margin-bottom:10px;">Nunca comece com a carga máxima. As séries são <strong style="color:var(--white)">progressivas</strong> — aumente a carga a cada série desde que continue atingindo a falha nas reps prescritas.</div><div class="warmup-steps"><div class="warmup-step"><span class="step-num">1ª</span><span class="step-text"><strong>Aquecimento:</strong> carga bem leve · algumas reps · sem falhar</span></div><div class="warmup-step"><span class="step-num">2ª+</span><span class="step-text"><strong>Progrida</strong> a carga até atingir a falha nas reps prescritas</span></div></div><div style="background:rgba(0,0,0,0.2);border-radius:3px;padding:8px 12px;margin-top:8px;font-size:10px;color:var(--white-dim);">Exemplo 4×8–10: S1 20kg leve → S2 30kg → S3 35kg → S4 40kg até falha</div><div class="warmup-videos-title" style="margin-top:10px;">📱 Mobilidade — Superiores</div><div class="warmup-videos"><a href="https://drive.google.com/file/d/1wZC2dwEJg2tkni2hxu8anqPvy9rL2LtF/view?usp=sharing" target="_blank" class="warmup-vid">▶ Alongamento pendurado</a><a href="https://drive.google.com/file/d/1S1duBiOxOv64BhSZpgErfwYv-9y1lF_0/view?usp=sharing" target="_blank" class="warmup-vid">▶ Alongamento peitoral</a><a href="https://drive.google.com/file/d/18MbodypqKN1cXpB4ZltkZTiQ8PdwNbAP/view?usp=sharing" target="_blank" class="warmup-vid">▶ Mobilidade escapular</a></div></div></div><div class="logica-box"><strong>⚙️ Progressão:</strong> Séries progressivas · 1ª série = aquecimento leve · nunca comece com carga máxima · aumente a carga a cada série até atingir a falha nas reps prescritas.</div>
-      <div class="exercise-table-wrap">
-        <table class="exercise-table">
-          <thead><tr><th>Exercício</th><th>Séries</th><th>Reps</th><th>Carga</th><th>Vídeo</th></tr></thead>
-          <tbody>
-            <tr><td class="ex-name">Pull Down Alça Barra Reta</td><td>4</td><td>8–10</td><td>Progressiva</td><td><a href="https://www.youtube.com/results?search_query=Pull+Down+Alça+Barra+Reta+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Remada Pronada Cavalinho Máquina</td><td>4</td><td>10–12</td><td>Progressiva</td><td><a href="https://www.youtube.com/results?search_query=Remada+Pronada+Cavalinho+Máquina+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Puxada Aberta Barra Reta</td><td>3</td><td>10–12</td><td>Moderada</td><td><a href="https://drive.google.com/file/d/1hO72jTUD-c47MI6Y5Vyfh8st7pbtu2FI/view" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Remada Fechada Triângulo</td><td>3</td><td>10–12</td><td>Moderada</td><td><a href="https://www.youtube.com/results?search_query=Remada+Fechada+Triângulo+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Crucifixo Invertido</td><td>3</td><td>12–15</td><td>Moderada</td><td><a href="https://drive.google.com/file/d/1jek0okn15KMgg9g5igd9Tkm1qvoveAW1/view" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Rosca Direta Barra W</td><td>3</td><td>10–12</td><td>Moderada</td><td><a href="https://drive.google.com/file/d/1THTclIW1YtUhy65_lt-Hjf6bJJXHWACd/view" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Rosca Scott Barra W</td><td>3</td><td>10–12</td><td>Moderada</td><td><a href="https://drive.google.com/file/d/14KY2OqZVULDhI6sSIm60WClA9vDTi3kW/view" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr class="core-row"><td class="ex-name" style="color:var(--gold-light);">— CORE —</td><td colspan="4" style="color:var(--white-dim);font-size:10px;">Ao final do treino</td></tr>
-            <tr><td class="ex-name">Rotação de Tronco com Anilha</td><td>3</td><td>12 cada</td><td>Leve</td><td><a href="https://www.youtube.com/results?search_query=Rotação+de+Tronco+com+Anilha+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Elevação de Pernas no Solo</td><td>3</td><td>12–15</td><td>Corporal</td><td><a href="https://www.youtube.com/results?search_query=Elevação+de+Pernas+no+Solo+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="swipe-hint">← deslize →</div>
-    </div>
-  </div>
-
-  <!-- LEGS B -->
-  <div id="treino-legs-b" class="treino-content">
-    <div class="meal-card">
-      <h3>Legs B — Membros Inferiores</h3>
-      <div class="warmup-block warmup-inferior"><div class="warmup-icon">⚙️</div><div class="warmup-content"><div class="warmup-title" style="color:var(--green);">Regra de Progressão — Obrigatória</div><div style="font-size:11px;color:var(--white-dim);line-height:1.9;margin-bottom:10px;">Nunca comece com a carga máxima. As séries são <strong style="color:var(--white)">progressivas</strong> — aumente a carga a cada série desde que continue atingindo a falha nas reps prescritas.</div><div class="warmup-steps"><div class="warmup-step"><span class="step-num">1ª</span><span class="step-text"><strong>Aquecimento:</strong> carga bem leve · algumas reps · sem falhar</span></div><div class="warmup-step"><span class="step-num">2ª+</span><span class="step-text"><strong>Progrida</strong> a carga até atingir a falha nas reps prescritas</span></div></div><div style="background:rgba(0,0,0,0.2);border-radius:3px;padding:8px 12px;margin-top:8px;font-size:10px;color:var(--white-dim);">Exemplo 4×8–10: S1 20kg leve → S2 30kg → S3 35kg → S4 40kg até falha</div><div class="warmup-videos-title" style="margin-top:10px;">📱 Mobilidade — Inferiores</div><div class="warmup-videos"><a href="https://drive.google.com/file/d/1WJfflEMvAwbFIeeyLRoiT6IypcqkyHRs/view?usp=sharing" target="_blank" class="warmup-vid">▶ Mobilidade quadril e tornozelo 1</a><a href="https://drive.google.com/file/d/16cq7ROyClZ90yE0MP6F4eE82jDVcSWKc/view?usp=sharing" target="_blank" class="warmup-vid">▶ Mobilidade quadril e tornozelo 2</a></div></div></div><div class="logica-box"><strong>⚙️ Progressão:</strong> Séries progressivas · 1ª série = aquecimento leve · nunca comece com carga máxima · aumente a carga a cada série até atingir a falha nas reps prescritas.</div>
-      <div class="exercise-table-wrap">
-        <table class="exercise-table">
-          <thead><tr><th>Exercício</th><th>Séries</th><th>Reps</th><th>Carga</th><th>Vídeo</th></tr></thead>
-          <tbody>
-            <tr><td class="ex-name">Abdução de Quadril com Miniband</td><td>3</td><td>20–25</td><td>Miniband</td><td><a href="https://drive.google.com/file/d/1QGvyxIlAAJfBvAionk7sOLgpHAgKP7i6/view" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Elevação de Quadril com Miniband</td><td>3</td><td>15–20</td><td>Miniband</td><td><a href="https://www.youtube.com/results?search_query=Elevação+de+Quadril+com+Miniband+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Elevação de Quadril Máquina</td><td>4</td><td>10–12</td><td>Progressiva</td><td><a href="https://www.youtube.com/results?search_query=Elevação+de+Quadril+Máquina+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Flexora Deitada</td><td>4</td><td>10–12</td><td>Progressiva</td><td><a href="https://www.youtube.com/results?search_query=Flexora+Deitada+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Agachamento Smith</td><td>4</td><td>8–10</td><td>Progressiva</td><td><a href="https://drive.google.com/file/d/1QNsyxSR4JfRpctAhTilG8MnEc5slXWqw/view" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Leg Press 45</td><td>4</td><td>10–12</td><td>Progressiva</td><td><a href="https://www.youtube.com/results?search_query=Leg+Press+45+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Extensora</td><td>3</td><td>12–15</td><td>Moderada</td><td><a href="https://www.youtube.com/results?search_query=Extensora+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr class="core-row"><td class="ex-name" style="color:var(--gold-light);">— CORE —</td><td colspan="4" style="color:var(--white-dim);font-size:10px;">Ao final do treino</td></tr>
-            <tr><td class="ex-name">Extensão de Quadril no Banco Romano</td><td>3</td><td>12–15</td><td>Corporal</td><td><a href="https://drive.google.com/file/d/1HV7NTdj-U3JX0i4mIF-yIh21eimq3RfP/view" target="_blank" class="video-btn">▶ VER</a></td></tr>
-            <tr><td class="ex-name">Prancha Ventral</td><td>3</td><td>30–45s</td><td>Corporal</td><td><a href="https://www.youtube.com/results?search_query=Prancha+Ventral+execução" target="_blank" class="video-btn">▶ VER</a></td></tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="swipe-hint">← deslize →</div>
-    </div>
-  </div>
 </section>
 <section id="cardio" class="section">
 
   <div class="section-header"><h2>Protocolo de <span>Cardio</span></h2><div class="section-line"></div></div>
-
   <div class="plan-info-bar">
-    <div class="plan-pill"><div class="pl-label">Duração</div><div class="pl-val">6 semanas</div></div>
-    <div class="plan-pill"><div class="pl-label">Frequência</div><div class="pl-val">7x/sem</div></div>
+    <div class="plan-pill"><div class="pl-label">Frequência</div><div class="pl-val">4x/sem (mín.)</div></div>
     <div class="plan-pill"><div class="pl-label">Por sessão</div><div class="pl-val">60 min</div></div>
-    <div class="plan-pill"><div class="pl-label">Zona base</div><div class="pl-val" style="color:var(--green);">Z2–Z3</div></div>
+    <div class="plan-pill"><div class="pl-label">Zona base</div><div class="pl-val" style="color:var(--green);">Z2</div></div>
+    <div class="plan-pill"><div class="pl-label">Variação</div><div class="pl-val">Livre</div></div>
   </div>
 
-  <div class="meal-card" style="margin-bottom:20px;">
-    <h3 style="font-size:16px;margin-bottom:12px;">📊 Controle de Intensidade</h3>
-    <div style="display:flex;flex-direction:column;gap:10px;">
-      <div style="display:flex;align-items:center;gap:12px;"><span class="zone-pill z2">Z1–Z2</span><span style="font-size:12px;color:var(--white-dim);">RPE 3–4 · Leve, confortável, conversável</span></div>
-      <div style="display:flex;align-items:center;gap:12px;"><span class="zone-pill z3">Z3</span><span style="font-size:12px;color:var(--white-dim);">RPE 5–6 · Moderado, sustentado</span></div>
-      <div style="display:flex;align-items:center;gap:12px;"><span class="zone-pill z4">Z4</span><span style="font-size:12px;color:var(--white-dim);">RPE 7–8 · Forte controlado</span></div>
-    </div>
-    <div style="margin-top:14px;font-size:11px;color:var(--white-dim);line-height:1.9;">
-      🔥 <strong style="color:var(--white);">Aquecimento (todos os dias):</strong> 5–8 min leves — caminhada, pedal leve ou trote.<br>
-      🧊 <strong style="color:var(--white);">Final:</strong> 5 min leves, respiração desacelerando.<br>
-      ⚠️ Zona 5 não será utilizada.<br>
-      🏃 <strong style="color:var(--gold);">Hyrox/Corrida:</strong> O protocolo progressivo prepara o condicionamento base para evolução nessas modalidades.
-    </div>
+  <div class="meal-card">
+    <h3 style="font-size:16px;margin-bottom:12px;">🏃 Orientação de Cardio</h3>
+    <div style="font-size:12.5px;color:var(--white-dim);line-height:2;">Faça <strong style="color:var(--white)">pelo menos 4 atividades aeróbicas na semana</strong>, de <strong style="color:var(--white)">1 hora (60 min) cada</strong>. Pode variar entre as modalidades pra não enjoar:</div>
+    <div style="font-size:12.5px;color:var(--white-dim);line-height:2.1;margin-top:8px;">⛰️ Caminhada na esteira inclinada<br>🏃 Corrida intercalando com caminhada<br>🚴 Bike<br>🪜 Escada<br>🚶 Transport</div>
+    <div style="margin-top:12px;padding:10px 12px;background:rgba(201,168,76,.06);border-left:3px solid var(--gold);border-radius:3px;font-size:11.5px;color:var(--white-dim);line-height:1.75">💡 Você pode <strong style="color:var(--gold)">intercalar várias modalidades na mesma sessão</strong> — uns minutos em cada uma até somar os 60 min. Faça do jeito mais dinâmico e gostoso pra você; o que importa é a <strong style="color:var(--white)">constância</strong>.</div>
+    <div style="margin-top:10px;"><input class="cardio-obs-input" type="text" placeholder="Anotação do cardio..." data-key="cardio-obs-diego" onchange="saveObs(this)" style="width:100%;background:var(--dark2);border:1px solid var(--border);color:var(--white);border-radius:4px;padding:8px;font-size:12px;"></div>
   </div>
 
-  
-
-<div id="semana-1" class="semana-content active"><div class="cardio-week">
-    <h3>📅 Semana 1</h3>
-    <div class="week-badge">Base de condicionamento</div>
-    <div class="cardio-day"><div class="cardio-day-title">🏃 Segunda — Esteira <span class="zone-pill z2">Z2</span></div><div class="cardio-day-body">60 min · 4 min trote leve / 2 min caminhada · Repetir</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">⛰️ Terça — Inclinado + Transport <span class="zone-pill z2">Z2–Z3</span></div><div class="cardio-day-body">30 min caminhada inclinada (5–7%) + 30 min transport leve/moderado</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">🚴 Quarta — Bike <span class="zone-pill z2">Z2–Z3</span></div><div class="cardio-day-body">60 min · Repetir 3x: 15 min Z2 / 5 min Z3</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">🪜 Quinta — Escada + Caminhada</div><div class="cardio-day-body">20 min escada (2 min leve / 1 min moderado · repetir) + 40 min caminhada leve</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">🚶 Sexta — Transport <span class="zone-pill z2">Z2</span></div><div class="cardio-day-body">60 min contínuo Zona 2</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">🔥 Sábado — Cardio Misto <span class="zone-pill z3">Z2–Z3</span></div><div class="cardio-day-body">20 min bike + 20 min caminhada inclinada + 20 min transport</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">🟢 Domingo — Regenerativo <span class="zone-pill z2">Z2</span></div><div class="cardio-day-body">60 min caminhada leve ou bike leve</div></div>
-  </div></div>
-
-<div id="semana-2" class="semana-content "><div class="cardio-week">
-    <h3>📅 Semana 2</h3>
-    <div class="week-badge">Mais tempo em Zona 3</div>
-    <div class="cardio-day"><div class="cardio-day-title">🏃 Segunda — Esteira</div><div class="cardio-day-body">60 min · 5 min corrida / 2 min caminhada · Repetir</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">⛰️ Terça — Inclinado + Transport <span class="zone-pill z3">Z3 nos últimos 10 min</span></div><div class="cardio-day-body">30 min inclinado (6–8%) + 30 min transport · Últimos 10 min Z3</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">🚴 Quarta — Bike <span class="zone-pill z3">Z3</span></div><div class="cardio-day-body">60 min · Repetir 4x: 8 min Z3 / 4 min Z2</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">🪜 Quinta — Escada + Caminhada</div><div class="cardio-day-body">25 min escada (2 min moderado / 1 min forte · repetir) + 35 min caminhada leve</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">🚶 Sexta — Transport <span class="zone-pill z2">Z2</span></div><div class="cardio-day-body">60 min contínuo Zona 2</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">🔥 Sábado — Misto</div><div class="cardio-day-body">20 min corrida leve + 20 min bike + 20 min transport</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">🟢 Domingo — Regenerativo <span class="zone-pill z2">Z2</span></div><div class="cardio-day-body">60 min regenerativo</div></div>
-  </div></div>
-
-<div id="semana-3" class="semana-content "><div class="cardio-week">
-    <h3>📅 Semana 3</h3>
-    <div class="week-badge">Progressão de duração e intensidade</div>
-    <div class="cardio-day"><div class="cardio-day-title">🏃 Segunda — Esteira <span class="zone-pill z3">Z2–Z3</span></div><div class="cardio-day-body">60 min · 6 min corrida / 2 min caminhada · Repetir</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">⛰️ Terça — Inclinado + Transport</div><div class="cardio-day-body">35 min inclinado (7–10%) + 25 min transport</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">🚴 Quarta — Bike <span class="zone-pill z3">Z3</span></div><div class="cardio-day-body">60 min · Repetir 5x: 5 min Z3 / 2 min leve</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">🪜 Quinta — Escada + Caminhada</div><div class="cardio-day-body">30 min escada (90s forte / 90s leve · repetir) + 30 min caminhada</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">🚶 Sexta — Transport <span class="zone-pill z2">Z2</span></div><div class="cardio-day-body">60 min contínuo Zona 2</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">🔥 Sábado — Misto <span class="zone-pill z3">Z3</span></div><div class="cardio-day-body">20 min corrida leve + 20 min inclinado + 20 min bike</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">🟢 Domingo — Regenerativo</div><div class="cardio-day-body">60 min regenerativo</div></div>
-  </div></div>
-
-<div id="semana-4" class="semana-content "><div class="cardio-week" style="border-color:var(--green-border);">
-    <h3 style="color:var(--green);">📅 Semana 4 — Recuperação Ativa</h3>
-    <div class="week-badge" style="border-color:var(--green-border);color:var(--green);">Redução de intensidade · Zona 2 predominante</div>
-    <div class="cardio-day"><div class="cardio-day-body" style="font-size:12px;line-height:1.9;">Todos os treinos predominantemente em <strong style="color:var(--green);">Zona 2</strong>. Sem estímulos fortes. Mesma estrutura, sem progressão. Recuperação fisiológica e consolidação das adaptações.</div></div>
-  </div></div>
-
-<div id="semana-5" class="semana-content "><div class="cardio-week">
-    <h3>📅 Semana 5</h3>
-    <div class="week-badge">Retomada progressiva</div>
-    <div class="cardio-day"><div class="cardio-day-title">🏃 Segunda — Esteira</div><div class="cardio-day-body">60 min · 8 min corrida / 2 min caminhada · Repetir</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">⛰️ Terça — Inclinado + Transport <span class="zone-pill z3">Z3 predominante</span></div><div class="cardio-day-body">35 min inclinado (8–12%) + 25 min transport</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">🚴 Quarta — Bike <span class="zone-pill z3">Z3</span></div><div class="cardio-day-body">60 min · Repetir 6x: 5 min Z3 / 2 min leve</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">🪜 Quinta — Escada + Caminhada</div><div class="cardio-day-body">35 min escada (1 min forte / 1 min leve · repetir) + 25 min caminhada leve</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">🚶 Sexta — Transport <span class="zone-pill z3">Z2–Z3</span></div><div class="cardio-day-body">60 min transport contínuo Z2–Z3</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">🔥 Sábado — Misto</div><div class="cardio-day-body">20 min corrida + 20 min bike + 20 min escada leve</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">🟢 Domingo — Regenerativo <span class="zone-pill z2">Z2</span></div><div class="cardio-day-body">60 min regenerativo</div></div>
-  </div></div>
-
-<div id="semana-6" class="semana-content "><div class="cardio-week" style="border-color:rgba(248,196,100,0.3);">
-    <h3 style="color:#f8c464;">📅 Semana 6 — Pico Controlado</h3>
-    <div class="week-badge" style="border-color:rgba(248,196,100,0.3);color:#f8c464;">Máxima do bloco · Zona 3 predominante</div>
-    <div class="cardio-day"><div class="cardio-day-title">🏃 Segunda — Esteira <span class="zone-pill z3">Z3</span></div><div class="cardio-day-body">60 min · 10 min corrida / 2 min caminhada · Repetir</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">⛰️ Terça — Inclinado alto + Transport <span class="zone-pill z3">Z3</span></div><div class="cardio-day-body">40 min inclinado (inclinação alta) + 20 min transport</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">🚴 Quarta — Bike <span class="zone-pill z3">Z2–Z3</span></div><div class="cardio-day-body">60 min contínuo Z2–Z3</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">🪜 Quinta — Escada <span class="zone-pill z4">Z4</span></div><div class="cardio-day-body">40 min escada (90s forte / 60s leve · repetir) + 20 min caminhada</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">🚶 Sexta — Transport <span class="zone-pill z2">Z2</span></div><div class="cardio-day-body">60 min transport contínuo Z2</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">🔥 Sábado — Misto <span class="zone-pill z3">Z3</span></div><div class="cardio-day-body">20 min corrida leve + 20 min bike + 20 min caminhada inclinada</div></div>
-    <div class="cardio-day"><div class="cardio-day-title">🟢 Domingo — Regenerativo leve <span class="zone-pill z2">Z2</span></div><div class="cardio-day-body">60 min muito leve</div></div>
-  </div>
 </section>
 <section id="conscientizacao" class="section">
   <div class="section-header"><h2>Área de <span>Conscientização</span></h2><div class="section-line"></div></div>
