@@ -501,9 +501,7 @@ textarea.q-input{resize:vertical;min-height:80px;}
         <button class="tab-btn" onclick="showSection('evolucao')">Evolução</button>
         <button class="tab-btn" onclick="showSection('relatorio')">Relatório</button>
         <button class="tab-btn" onclick="showSection('feedback')">Feedback</button>
-        <button class="tab-btn" onclick="showSection('financeiro')">💳 Financeiro</button>
-        <button class="tab-btn" onclick="showSection('z3')">🛒 Z3</button>
-      </div>
+        </div>
       <button class="theme-toggle" onclick="toggleTheme()">☀</button>
     </div>
   </div>
@@ -521,59 +519,72 @@ textarea.q-input{resize:vertical;min-height:80px;}
     </div>
   </div>
 
-  <div class="plan-info-bar">
-    <div class="plan-pill"><div class="pl-label">Objetivo</div><div class="pl-val" style="font-size:13px;">Composição + Performance</div></div>
-    <div class="plan-pill"><div class="pl-label">Divisão</div><div class="pl-val">PPL 6x</div></div>
-    <div class="plan-pill"><div class="pl-label">Cardio</div><div class="pl-val">6x/sem</div></div>
-    <div class="plan-pill"><div class="pl-label">Plano</div><div class="pl-val">6 meses</div></div>
-    <div class="plan-pill"><div class="pl-label">Semana atual</div><div class="pl-val" id="weekNum">—</div></div>
-  </div>
-
-  <div class="alert-box alert-gold">
-    <strong>ℹ️ Dieta:</strong> O planejamento alimentar será feito pela nutricionista Barbara. Assim que disponível, será integrado ao portal. Enquanto isso, foco no treino e no cardio.
-  </div>
+  <div class="plan-info-bar"><div class="plan-pill"><div class="pl-label">Objetivo</div><div class="pl-val">Composição + Performance</div></div><div class="plan-pill"><div class="pl-label">Treino</div><div class="pl-val">Full Body A/B/C · 3x/sem</div></div><div class="plan-pill"><div class="pl-label">Dieta</div><div class="pl-val">~2.053 kcal · 4 refeições</div></div><div class="plan-pill"><div class="pl-label">Cardio</div><div class="pl-val">4x/sem · 60 min · Z2</div></div></div>
 
   <div class="recados-box">
-    <h4>📌 Recados do Treinador</h4>
-    <div class="recados-text">Diego, seja bem-vindo à Consultoria LB! 💪
+    <div class="recados-header">📌 Recados do Treinador</div>
+    <div class="recados-text">Diego, você chegou com o histórico certo — nível avançado, sabe o que precisa fazer. O problema não é conhecimento, é <strong style="color:var(--gold)">processo e constância</strong>. É exatamente isso que a gente vai construir juntos.
 
-Você chegou com o histórico certo — nível avançado, sabe o que precisa fazer. O problema não é conhecimento, é processo. E é exatamente isso que a gente vai montar juntos.
+<strong style="color:var(--white)">Full Body A/B/C 3x/sem</strong> + <strong style="color:var(--white)">cardio livre 4x/sem</strong> + dieta ~2.053 kcal. O treino em jejum pela manhã encaixa bem com sua rotina de reuniões variáveis.
 
-Divisão PPL 6x por semana com protocolo de cardio de 6 semanas. O treino em jejum pela manhã encaixa bem com sua rotina de reuniões variáveis.
-
-Importante: o cotovelo está sendo monitorado — qualquer sinal de dor nos exercícios de empurrar, me avise imediatamente.
-
-Suporte: segunda a sexta, 8h às 18h. 💬</div>
+Cotovelo: se sentir dor ou desconforto nos exercícios de empurrar, me avisa imediatamente pra ajustarmos. Suporte: segunda a sexta, 8h às 18h. 💬</div>
   </div>
 
   <div class="profile-grid">
     <div class="profile-card">
       <h3>Dados Pessoais</h3>
-      <div class="profile-item"><span class="label">Nome</span><span class="value">Diego H. S. de Melo</span></div>
-      <div class="profile-item"><span class="label">Idade</span><span class="value">35 anos</span></div>
-      <div class="profile-item"><span class="label">Peso</span><span class="value">101 kg</span></div>
-      <div class="profile-item"><span class="label">Altura</span><span class="value">1,79 m</span></div>
-      <div class="profile-item"><span class="label">Cidade</span><span class="value">Varginha — MG</span></div>
-      <div class="profile-item"><span class="label">Nível treino</span><span class="value">Avançado (2+ anos)</span></div>
-      <div class="profile-item"><span class="label">Treina em jejum</span><span class="value">Sim — manhã</span></div>
+      <div class="profile-item"><span class="label">Nome</span><span class="value">Diego H. S. de Melo</span></div><div class="profile-item"><span class="label">Idade</span><span class="value">35 anos</span></div><div class="profile-item"><span class="label">Peso</span><span class="value">101 kg</span></div><div class="profile-item"><span class="label">Altura</span><span class="value">1,79 m</span></div><div class="profile-item"><span class="label">Cidade</span><span class="value">Varginha — MG</span></div><div class="profile-item"><span class="label">Nível treino</span><span class="value">Avançado (2+ anos)</span></div><div class="profile-item"><span class="label">Treina em jejum</span><span class="value">Sim — manhã</span></div>
     </div>
     <div class="welcome-box">
-      <p>Diego, o maior desafio que você mesmo identificou é a <strong>disciplina e a rotina</strong>. A boa notícia é que o plano foi montado justamente para funcionar com a sua realidade — horários variáveis, treino pela manhã, cardio em qualquer bloco do dia.</p>
-      <p>A divisão PPL de 6 dias garante volume suficiente para ganhar massa e melhorar a composição. O cardio de 6 semanas, com variação de ergômetros, vai trabalhar o condicionamento para o Hyrox e a corrida que você quer iniciar.</p>
-      <p><strong>O processo é simples. A execução é o que separa quem chega de quem fica no mesmo lugar.</strong></p>
-      <p style="color:rgba(201,168,76,0.5);font-size:11px;">"Meu grande problema é rotina" — você disse. Vamos resolver isso juntos, semana por semana. 🎯</p>
+      <p>Diego, este é o seu portal na <strong>Consultoria LB</strong>. Dieta, treino, cardio, relatório e biblioteca — tudo organizado num só lugar, acessível a qualquer momento.</p>
+      <p>O plano foi montado pensando na sua realidade: horários variáveis de trabalho, treino pela manhã em jejum, cardio livre pra encaixar em qualquer bloco do dia. <strong>Divisão Full Body A/B/C 3 vezes por semana</strong> com <strong style="color:var(--gold);">~2.053 kcal/dia</strong> — dieta estruturada com proteína alta em todas as refeições e substituições completas.</p>
+      <p>O maior desafio que você mesmo identificou foi <strong>disciplina e rotina</strong>. Não é sobre conhecimento — você já tem. É sobre <strong style="color:var(--gold);">executar o básico bem feito, semana após semana</strong>.</p>
+      <p>Substituições nos alimentos pra não enjoar · cardio com várias modalidades pela mesma razão · foco em proteína e em evitar álcool durante a semana. Regra simples, execução consistente.</p>
+      <p style="color:var(--gold);font-size:11px;letter-spacing:1px;margin-top:16px;">— Luan Barreto · Nutricionista &amp; Treinador</p>
     </div>
   </div>
 </section>
 <section id="dieta" class="section">
   <div class="section-header"><h2>Plano <span>Alimentar</span></h2><div class="section-line"></div></div>
-  <div class="meal-card" style="text-align:center;padding:48px 24px;">
-    <div style="font-size:48px;margin-bottom:16px;">🥗</div>
-    <div style="font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--gold);margin-bottom:12px;">Planejamento em elaboração</div>
-    <p style="font-size:13px;color:var(--white-dim);line-height:1.9;max-width:480px;margin:0 auto 16px;">A dieta do Diego é elaborada pela esposa, a nutricionista <strong style="color:var(--white)">Bárbara</strong>. Da minha parte, oriento trabalhar com uma média de <strong style="color:var(--white)">~2.000 kcal por dia</strong>.</p>
-    <p style="font-size:11px;color:var(--white-dim);line-height:1.9;">Enquanto isso, foco em: <strong style="color:var(--white)">proteína alta · evitar álcool durante a semana · não pular refeições · reduzir fast food</strong></p>
+  <div class="logica-box"><strong>🎯 Foco desta fase:</strong> proteína alta em todas as refeições · <strong style="color:var(--gold)">evitar álcool durante a semana</strong> · não pular refeições · reduzir fast food · substituições flexíveis mantendo a equivalência calórica.</div>
+  <div class="meal-total"><div class="total-pill"><span class="label">Total diário</span><span class="value">~2.053</span><span class="unit">kcal</span></div></div>
+  <div class="meal-card">
+    <div class="meal-header"><div class="meal-header-left"><div class="meal-num">1</div><div><div class="meal-name">Refeição 1 — Café da Manhã</div><span class="meal-time">Manhã · antes de sair pro dia</span></div></div><div class="meal-kcal">~505 <span>kcal</span></div></div>
+    <div class="meal-table-wrap"><table class="meal-table"><thead><tr><th>Alimento</th><th>Qtd.</th><th>kcal</th><th>Substituições (qtd · kcal equiv.)</th></tr></thead><tbody>
+      <tr><td class="food-name">Ovos inteiros</td><td class="food-qty">2 unidades</td><td class="food-kcal">140</td><td class="food-sub">Claras de ovo <strong>8 un · ~136kcal</strong><br>Frango grelhado <strong>85g · ~140kcal</strong><br>Atum em água <strong>130g · ~140kcal</strong><br>Iogurte grego natural <strong>240g · ~140kcal</strong><br>Whey protein <strong>35g · ~140kcal</strong><br>Queijo cottage <strong>200g · ~140kcal</strong><br>Sardinha em água <strong>95g · ~140kcal</strong></td></tr><tr><td class="food-name">Claras de ovo</td><td class="food-qty">3 unidades</td><td class="food-kcal">51</td><td class="food-sub">Whey protein <strong>15g · ~60kcal</strong><br>Frango grelhado <strong>35g · ~55kcal</strong><br>1 ovo inteiro <strong>1 un · ~70kcal</strong><br>Cottage <strong>75g · ~50kcal</strong><br>Peito de peru natural <strong>50g · ~55kcal</strong></td></tr><tr><td class="food-name">Pão integral</td><td class="food-qty">2 fatias (60g)</td><td class="food-kcal">148</td><td class="food-sub">Tapioca (goma) <strong>70g · ~147kcal</strong><br>Cuscuz marroquino <strong>50g seco · ~180kcal</strong><br>Aveia em flocos <strong>40g · ~154kcal</strong><br>Granola sem açúcar <strong>35g · ~150kcal</strong><br>Pão francês <strong>1 un ~50g · ~135kcal</strong><br>Batata-doce cozida <strong>170g · ~150kcal</strong></td></tr><tr><td class="food-name">Mamão</td><td class="food-qty">200g</td><td class="food-kcal">86</td><td class="food-sub">Melão <strong>350g · ~105kcal</strong><br>Abacaxi <strong>220g · ~110kcal</strong><br>Melancia <strong>380g · ~110kcal</strong><br>Morango <strong>340g · ~105kcal</strong><br>Maçã <strong>200g · ~104kcal</strong><br>Banana prata <strong>120g · ~106kcal</strong><br>Manga <strong>160g · ~100kcal</strong></td></tr><tr><td class="food-name">Iogurte zero</td><td class="food-qty">200 ml</td><td class="food-kcal">80</td><td class="food-sub">Leite desnatado <strong>200ml · ~70kcal</strong><br>Iogurte natural integral <strong>200g · ~120kcal</strong><br>Iogurte proteico <strong>170g · ~100kcal</strong><br>Kefir <strong>200ml · ~100kcal</strong><br>Bebida vegetal sem açúcar <strong>200ml · ~80kcal</strong></td></tr><tr><td class="food-name">Café / chá sem açúcar</td><td class="food-qty">à vontade</td><td class="food-kcal">0</td><td class="food-sub">Café sem açúcar · Chá verde · Chá mate · Chá de hibisco · Água com limão</td></tr>
+    </tbody></table></div><p class="swipe-hint">← deslize →</p>
+    
+    <div class="meal-obs-area"><textarea placeholder="Observações desta refeição..." data-key="meal-obs-r1" onchange="saveObs(this)"></textarea></div>
   </div>
+  <div class="meal-card">
+    <div class="meal-header"><div class="meal-header-left"><div class="meal-num">2</div><div><div class="meal-name">Refeição 2 — Almoço</div><span class="meal-time">~12h30</span></div></div><div class="meal-kcal">~543 <span>kcal</span></div></div>
+    <div class="meal-table-wrap"><table class="meal-table"><thead><tr><th>Alimento</th><th>Qtd.</th><th>kcal</th><th>Substituições (qtd · kcal equiv.)</th></tr></thead><tbody>
+      <tr><td class="food-name">Arroz branco cozido</td><td class="food-qty">100g</td><td class="food-kcal">130</td><td class="food-sub">Batata inglesa cozida <strong>150g · ~130kcal</strong><br>Batata-doce cozida <strong>145g · ~130kcal</strong><br>Aipim cozido <strong>90g · ~130kcal</strong><br>Macarrão cozido <strong>100g · ~130kcal</strong><br>Cuscuz marroquino <strong>35g seco · ~125kcal</strong><br>Arroz integral <strong>95g · ~120kcal</strong></td></tr><tr><td class="food-name">Feijão cozido</td><td class="food-qty">100g</td><td class="food-kcal">85</td><td class="food-sub">Lentilha cozida <strong>105g · ~120kcal</strong><br>Grão-de-bico cozido <strong>75g · ~120kcal</strong><br>Ervilha cozida <strong>120g · ~100kcal</strong><br>Feijão preto <strong>100g · ~90kcal</strong><br>Feijão branco <strong>100g · ~100kcal</strong><br>Aumentar 30g do arroz</td></tr><tr><td class="food-name">Peito de frango grelhado</td><td class="food-qty">150g</td><td class="food-kcal">248</td><td class="food-sub">Patinho magro <strong>150g · ~215kcal</strong><br>Tilápia <strong>170g · ~230kcal</strong><br>Atum em água <strong>210g · ~230kcal</strong><br>Carne bovina magra (coxão mole) <strong>145g · ~245kcal</strong><br>Ovos inteiros + claras <strong>3 ovos + 4 claras · ~278kcal</strong><br>Salmão <strong>105g · ~230kcal</strong><br>Peito de peru natural <strong>200g · ~220kcal</strong></td></tr><tr><td class="food-name">Verduras e vegetais</td><td class="food-qty">150g</td><td class="food-kcal">25</td><td class="food-sub">Brócolis · Cenoura · Abobrinha · Abóbora · Berinjela · Vagem · Chuchu · Couve · Espinafre · Alface · Rúcula · Tomate · Pepino · Beterraba <strong>livre entre esses</strong></td></tr><tr><td class="food-name">Fruta (sobremesa)</td><td class="food-qty">100g</td><td class="food-kcal">55</td><td class="food-sub">Mamão <strong>190g · ~80kcal</strong><br>Melão <strong>280g · ~85kcal</strong><br>Abacaxi <strong>170g · ~85kcal</strong><br>Morango <strong>260g · ~80kcal</strong><br>Melancia <strong>300g · ~90kcal</strong><br>Maçã <strong>160g · ~85kcal</strong><br>Pera <strong>140g · ~85kcal</strong></td></tr>
+    </tbody></table></div><p class="swipe-hint">← deslize →</p>
+    
+    <div class="meal-obs-area"><textarea placeholder="Observações desta refeição..." data-key="meal-obs-r2" onchange="saveObs(this)"></textarea></div>
+  </div>
+  <div class="meal-card">
+    <div class="meal-header"><div class="meal-header-left"><div class="meal-num">3</div><div><div class="meal-name">Refeição 3 — Lanche da Tarde</div><span class="meal-time">~16h</span></div></div><div class="meal-kcal">~462 <span>kcal</span></div></div>
+    <div class="meal-table-wrap"><table class="meal-table"><thead><tr><th>Alimento</th><th>Qtd.</th><th>kcal</th><th>Substituições (qtd · kcal equiv.)</th></tr></thead><tbody>
+      <tr><td class="food-name">Whey protein</td><td class="food-qty">40g</td><td class="food-kcal">155</td><td class="food-sub">Frango grelhado <strong>96g · ~155kcal</strong><br>Atum em água <strong>145g · ~155kcal</strong><br>Claras de ovo <strong>10 un · ~170kcal</strong><br>Ovos inteiros <strong>2 un + 2 claras · ~175kcal</strong><br>Whey isolado <strong>40g · ~155kcal</strong><br>Iogurte grego zero <strong>260g · ~155kcal</strong></td></tr><tr><td class="food-name">Granola sem açúcar ou aveia</td><td class="food-qty">30g</td><td class="food-kcal">117</td><td class="food-sub">Aveia em flocos <strong>30g · ~117kcal</strong><br>Cuscuz marroquino <strong>35g seco · ~125kcal</strong><br>Tapioca (goma) <strong>55g · ~115kcal</strong><br>Flocão de milho <strong>35g · ~120kcal</strong><br>Pão integral <strong>1,5 fatia · ~110kcal</strong><br>Granola sem açúcar <strong>30g · ~130kcal</strong></td></tr><tr><td class="food-name">Frutas variadas</td><td class="food-qty">200g</td><td class="food-kcal">110</td><td class="food-sub">Mamão <strong>380g · ~165kcal</strong><br>Melão <strong>550g · ~165kcal</strong><br>Abacaxi <strong>340g · ~170kcal</strong><br>Morango <strong>530g · ~165kcal</strong><br>Melancia <strong>580g · ~170kcal</strong><br>Maçã <strong>320g · ~165kcal</strong><br>Banana prata <strong>190g · ~170kcal</strong><br>Mix variado até <strong>200g total</strong></td></tr><tr><td class="food-name">Iogurte zero</td><td class="food-qty">200 ml</td><td class="food-kcal">80</td><td class="food-sub">Leite desnatado <strong>200ml · ~70kcal</strong><br>Iogurte natural integral <strong>200g · ~120kcal</strong><br>Iogurte proteico <strong>170g · ~100kcal</strong><br>Kefir <strong>200ml · ~100kcal</strong><br>Bebida vegetal sem açúcar <strong>200ml · ~80kcal</strong></td></tr>
+    </tbody></table></div><p class="swipe-hint">← deslize →</p>
+    
+    <div class="meal-obs-area"><textarea placeholder="Observações desta refeição..." data-key="meal-obs-r3" onchange="saveObs(this)"></textarea></div>
+  </div>
+  <div class="meal-card">
+    <div class="meal-header"><div class="meal-header-left"><div class="meal-num">4</div><div><div class="meal-name">Refeição 4 — Jantar</div><span class="meal-time">~20h</span></div></div><div class="meal-kcal">~543 <span>kcal</span></div></div>
+    <div class="meal-table-wrap"><table class="meal-table"><thead><tr><th>Alimento</th><th>Qtd.</th><th>kcal</th><th>Substituições (qtd · kcal equiv.)</th></tr></thead><tbody>
+      <tr><td class="food-name">Arroz branco cozido</td><td class="food-qty">100g</td><td class="food-kcal">130</td><td class="food-sub">Batata inglesa cozida <strong>150g · ~130kcal</strong><br>Batata-doce cozida <strong>145g · ~130kcal</strong><br>Aipim cozido <strong>90g · ~130kcal</strong><br>Macarrão cozido <strong>100g · ~130kcal</strong><br>Cuscuz marroquino <strong>35g seco · ~125kcal</strong><br>Arroz integral <strong>95g · ~120kcal</strong></td></tr><tr><td class="food-name">Feijão cozido</td><td class="food-qty">100g</td><td class="food-kcal">85</td><td class="food-sub">Lentilha cozida <strong>105g · ~120kcal</strong><br>Grão-de-bico cozido <strong>75g · ~120kcal</strong><br>Ervilha cozida <strong>120g · ~100kcal</strong><br>Feijão preto <strong>100g · ~90kcal</strong><br>Feijão branco <strong>100g · ~100kcal</strong><br>Aumentar 30g do arroz</td></tr><tr><td class="food-name">Peito de frango grelhado</td><td class="food-qty">150g</td><td class="food-kcal">248</td><td class="food-sub">Patinho magro <strong>150g · ~215kcal</strong><br>Tilápia <strong>170g · ~230kcal</strong><br>Atum em água <strong>210g · ~230kcal</strong><br>Carne bovina magra (coxão mole) <strong>145g · ~245kcal</strong><br>Ovos inteiros + claras <strong>3 ovos + 4 claras · ~278kcal</strong><br>Salmão <strong>105g · ~230kcal</strong><br>Peito de peru natural <strong>200g · ~220kcal</strong></td></tr><tr><td class="food-name">Verduras e vegetais</td><td class="food-qty">150g</td><td class="food-kcal">25</td><td class="food-sub">Brócolis · Cenoura · Abobrinha · Abóbora · Berinjela · Vagem · Chuchu · Couve · Espinafre · Alface · Rúcula · Tomate · Pepino · Beterraba <strong>livre entre esses</strong></td></tr><tr><td class="food-name">Fruta (sobremesa)</td><td class="food-qty">100g</td><td class="food-kcal">55</td><td class="food-sub">Mamão <strong>190g · ~80kcal</strong><br>Melão <strong>280g · ~85kcal</strong><br>Abacaxi <strong>170g · ~85kcal</strong><br>Morango <strong>260g · ~80kcal</strong><br>Melancia <strong>300g · ~90kcal</strong><br>Maçã <strong>160g · ~85kcal</strong><br>Pera <strong>140g · ~85kcal</strong></td></tr>
+    </tbody></table></div><p class="swipe-hint">← deslize →</p>
+    
+    <div class="meal-obs-area"><textarea placeholder="Observações desta refeição..." data-key="meal-obs-r4" onchange="saveObs(this)"></textarea></div>
+  </div>
+  <div style="background:rgba(96,165,250,.06);border:1px solid rgba(96,165,250,.3);border-radius:4px;padding:12px 16px;margin-top:16px;font-size:11px;color:var(--white-dim);line-height:1.7;">
+  <span style="color:var(--blue);">💡</span> <strong style="color:var(--white)">Refeições 2 e 4 são iguais</strong> — pode alternar os alimentos (proteína, carbo, fruta) usando as substituições pra não cansar do mesmo cardápio. Ex: almoço frango + arroz, jantar tilápia + batata-doce.
+</div>
 </section>
+
 <section id="treino" class="section">
   <div class="section-header"><h2>Plano de <span>Treino</span></h2><div class="section-line"></div></div>
 
@@ -733,12 +744,16 @@ Suporte: segunda a sexta, 8h às 18h. 💬</div>
     </div>
     <div class="meal-card">
       <div style="font-family:'Cormorant Garamond',serif;font-size:17px;color:var(--gold);margin-bottom:12px;">🏋️ Estratégia de Treino</div>
-      <p style="font-size:12px;color:var(--white-dim);line-height:2;">A divisão <strong style="color:var(--white)">PPL (Push · Pull · Legs) em 6 dias</strong> garante volume e frequência adequados para recomposição corporal em nível avançado. Cada grupo muscular é trabalhado duas vezes por semana com variação de ordem dos exercícios (A e B), mantendo o estímulo fresco e evitando acomodação.</p>
+      <p style="font-size:12px;color:var(--white-dim);line-height:2;">A divisão <strong style="color:var(--white)">Full Body A/B/C em 3 dias</strong> garante volume e frequência adequados para recomposição em nível avançado. Cada grupo muscular é trabalhado múltiplas vezes por semana com variação entre os 3 treinos, mantendo o estímulo fresco. O tempo restante da semana é usado pra cardio e recuperação — encaixa bem com uma rotina de reuniões variáveis.</p>
     </div>
     <div class="meal-card">
       <div style="font-family:'Cormorant Garamond',serif;font-size:17px;color:var(--gold);margin-bottom:12px;">🚴 Cardio e Performance</div>
-      <p style="font-size:12px;color:var(--white-dim);line-height:2;">O protocolo de <strong style="color:var(--white)">6 semanas de cardio</strong> foi desenvolvido com progressão de intensidade e variação de ergômetros — esteira, bike, escada, transport — para construir a base aeróbica necessária para a corrida e o Hyrox. A semana 4 é de recuperação ativa, e a semana 6 é o pico do bloco.</p>
+      <p style="font-size:12px;color:var(--white-dim);line-height:2;">O cardio é feito em <strong style="color:var(--white)">4 sessões de 60 minutos por semana em Zona 2</strong> (pace conversável), com liberdade pra variar entre esteira inclinada, corrida intercalada com caminhada, bike, escada e transport — pra não enjoar. A Zona 2 constrói base aeróbica sem prejudicar a recuperação dos treinos de força.</p>
       <div style="margin-top:12px;"><a href="https://www.instagram.com/reel/DOY2YvMEbxP/" target="_blank" class="ig-link">▶ Benefícios do cardio</a></div>
+    </div>
+    <div class="meal-card">
+      <div style="font-family:'Cormorant Garamond',serif;font-size:17px;color:var(--gold);margin-bottom:12px;">🍽️ Estratégia Nutricional</div>
+      <p style="font-size:12px;color:var(--white-dim);line-height:2;">Dieta em <strong style="color:var(--white)">~2.053 kcal/dia divididas em 4 refeições</strong>, com foco em proteína alta em cada refeição (whey no lanche, frango/tilápia no almoço e jantar, ovos + claras no café). Substituições completas em cada alimento — pode alternar frango e tilápia, mamão e outras frutas — <strong style="color:var(--white)">pra não enjoar</strong>. Regras práticas: evitar álcool durante a semana, não pular refeições, reduzir fast food.</p>
     </div>
     <div class="meal-card">
       <div style="font-family:'Cormorant Garamond',serif;font-size:17px;color:var(--gold);margin-bottom:12px;">🧠 O Ponto Central — Disciplina e Rotina</div>
@@ -1056,43 +1071,6 @@ Suporte: segunda a sexta, 8h às 18h. 💬</div>
   </div>
 
 </section>
-<section id="financeiro" class="section">
-  <div class="section-header"><h2>💳 <span>Financeiro</span></h2><div class="section-line"></div></div>
-  <div id="fin-container"><div style="text-align:center;padding:40px;color:var(--white-dim);">Carregando...</div></div>
-</section>
-<section id="z3" class="section">
-  <div class="section-header"><h2>🛒 Z3 <span>Distribuidora</span></h2><div class="section-line"></div></div>
-  <div style="background:linear-gradient(135deg,#1a1200,var(--dark2));border:1px solid var(--gold);border-radius:8px;padding:28px 24px;text-align:center;margin-bottom:28px;">
-    <div style="font-size:40px;margin-bottom:14px;">🏪</div>
-    <div style="font-family:'Cormorant Garamond',serif;font-size:26px;color:var(--gold);margin-bottom:8px;">Z3 Distribuidora</div>
-    <div style="font-size:12px;color:var(--white-dim);margin-bottom:20px;line-height:1.9;">
-      Catálogo com <strong style="color:var(--white)">16 marcas</strong> · Pagamento por <strong style="color:var(--white)">PIX ou cartão</strong><br>
-      Pedido mínimo <strong style="color:var(--white)">R$399</strong> · Pedido via <strong style="color:var(--white)">WhatsApp</strong>
-    </div>
-    <a href="https://z3distribuidora.netlify.app/" target="_blank"
-       style="display:inline-block;background:linear-gradient(135deg,var(--gold),var(--gold-light));color:var(--black);font-family:'Montserrat',sans-serif;font-weight:700;font-size:11px;letter-spacing:2px;text-transform:uppercase;padding:14px 32px;border-radius:3px;text-decoration:none;"
-       onmouseover="this.style.opacity='0.88'" onmouseout="this.style.opacity='1'">
-      Acessar Catálogo
-    </a>
-  </div>
-  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-bottom:24px;">
-    <div style="background:var(--dark2);border:1px solid var(--border);border-radius:4px;padding:18px;text-align:center;">
-      <div style="font-size:24px;margin-bottom:8px;">🏷️</div>
-      <div style="font-family:'Cormorant Garamond',serif;font-size:16px;color:var(--gold);margin-bottom:6px;">16 Marcas</div>
-      <div style="font-size:11px;color:var(--white-dim);line-height:1.8;">Whey, creatina, pré-treinos, vitaminas e muito mais das melhores marcas do mercado.</div>
-    </div>
-    <div style="background:var(--dark2);border:1px solid var(--border);border-radius:4px;padding:18px;text-align:center;">
-      <div style="font-size:24px;margin-bottom:8px;">💳</div>
-      <div style="font-family:'Cormorant Garamond',serif;font-size:16px;color:var(--gold);margin-bottom:6px;">PIX ou Cartão</div>
-      <div style="font-size:11px;color:var(--white-dim);line-height:1.8;">Pagamento facilitado. PIX com aprovação imediata ou parcelado no cartão.</div>
-    </div>
-    <div style="background:var(--dark2);border:1px solid var(--border);border-radius:4px;padding:18px;text-align:center;">
-      <div style="font-size:24px;margin-bottom:8px;">📦</div>
-      <div style="font-family:'Cormorant Garamond',serif;font-size:16px;color:var(--gold);margin-bottom:6px;">Pedido via WhatsApp</div>
-      <div style="font-size:11px;color:var(--white-dim);line-height:1.8;">Pedido mínimo R$399. Atendimento direto e personalizado pelo WhatsApp.</div>
-    </div>
-  </div>
-</section>
 </div>
 <div class="watermark">Consultoria LB</div>
 <script>
@@ -1346,7 +1324,7 @@ function showSection(id){
   document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
   document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
   document.getElementById(id).classList.add('active');
-  const map={apresentacao:0,dieta:1,treino:2,cardio:3,conscientizacao:4,evolucao:5,relatorio:6,feedback:7,financeiro:8,z3:9};
+  const map={apresentacao:0,dieta:1,treino:2,cardio:3,conscientizacao:4,evolucao:5,relatorio:6,feedback:7};
   if(map[id]!==undefined && document.querySelectorAll('.tab-btn')[map[id]]){
     document.querySelectorAll('.tab-btn')[map[id]].classList.add('active');
   }
@@ -2145,7 +2123,7 @@ function showSemana(id,btn){
     }
   }
 
-  window.addEventListener('load',()=>{loadAll();loadPhotos();autoRegister();renderFin();});
+  window.addEventListener('load',()=>{loadAll();loadPhotos();autoRegister();});
 </script>
 </body>
 </html>
